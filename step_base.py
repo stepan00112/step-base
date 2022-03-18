@@ -13,8 +13,15 @@ def new_base(row,column):
         p=base[i]
         for j in range(column):
             p.append([])
-    #print(base)
-            
+def plus_row(row):
+    global base
+    lenning=len(base)
+    column=len(base[0])
+    for i in range(row):
+        base.append([])
+        p=base[i+lenning]
+        for j in range(column):
+           p.append([])            
 def edit(row,column,data):
     base[row][column]=data
 def show_all():
@@ -26,3 +33,6 @@ def show_all():
             else:
                 print('None',end=' | ')
         print('\n-------------')
+    
+    
+        
