@@ -7,3 +7,4 @@
 #reading(file) чтение базы данных
 #new(file) запись в базу данных
 #plus_row(row) добавление рядов
+#edit_column()
