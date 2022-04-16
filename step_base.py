@@ -6,8 +6,7 @@ def reading(name):
         base=eval(f.read())
         return base
 
-    
-#base=[[[],[]],[[],[]]]
+
 def new_base(row,column):
     global base
     base=[]
@@ -29,7 +28,7 @@ def plus_row(row):
            p.append([])
            
 
-    #print(base)
+ 
 def edit(row,column,data):
     base[row][column]=data
 def edit_column(row,data):
